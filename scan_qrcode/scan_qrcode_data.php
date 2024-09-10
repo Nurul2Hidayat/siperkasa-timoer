@@ -87,7 +87,8 @@
 		session_start();
 		include "../koneksi/koneksi_sdm.php";
 		$username = preg_replace("/[^0-9]/", "",$_POST['username']);
-		$password = md5(sha1($_POST['password']));
+		$salt 	  = "berisi_slat_rsmn_untuk_aplikasi_siperkasa_timoer";
+		$password = md5(sha1($_POST['password'].$salt));
 		//$query 	= "SELECT * FROM pegawai WHERE (REPLACE(REPLACE(nip, '.',''),'-','')='$username' or REPLACE(REPLACE(no_hp, '.',''),'-','')='$username') AND password='$password' AND aktif ='1'";
 		$query 	= "SELECT * FROM pegawai WHERE (REPLACE(REPLACE(REPLACE(NIP, '.',''),'-',''),' ','') = '$username' or REPLACE(REPLACE(HP, '.',''),'-','') = '$username') AND password='$password' AND AKTIF ='1'";
 		$hasil 	= mysql_query($query);

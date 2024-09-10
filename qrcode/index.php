@@ -15,8 +15,9 @@
 	}
 	// berikut adalah parameter qr code
 	$id 			= $_GET['id'];
-	$nama_file		= "qrcode-$nama-$id.png";		
-	$filter_token	= base64_encode(base64_encode($id.'___'.$type));
+	$nama_file		= "qrcode-$nama-$id.png";
+	$salt 			= "berisi_salt_untuk_generate_qrcode_aplikasi_siperkasa";
+	$filter_token	= base64_encode(base64_encode($salt.'___'.$id.'___'.$type));
 	$teks_qrcode	= "http://".$_SERVER['SERVER_NAME']."/it/scan_qrcode/scan_qrcode.php?gid=$filter_token";
 	$namafile		= $nama_file;
 	$quality		= "H"; // ini ada 4 pilihan yaitu L (Low), M(Medium), Q(Good), H(High)

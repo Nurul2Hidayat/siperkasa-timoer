@@ -5,7 +5,7 @@
 	$username = mysql_real_escape_string($un);
 	$password = mysql_real_escape_string($_POST['password']);
 	$salt 	  = "berisi_slat_rsmn_untuk_aplikasi_siperkasa_timoer";
-	$password = md5(sha1($password));
+	$password = md5(sha1($password.$salt));
 	$query 	= "SELECT * FROM pegawai WHERE (REPLACE(REPLACE(REPLACE(NIP, '.',''),'-',''),' ','') = '$username' or REPLACE(REPLACE(HP, '.',''),'-','') = '$username') AND password='$password' AND AKTIF ='1'";
 	$hasil 	= mysql_query($query);
 	$data 	= mysql_fetch_array($hasil);
