@@ -42,7 +42,7 @@ Siperkasa Timoer dikembangkan untuk mempermudah proses pelaporan dan penanganan 
 
 ### Beranda
 
-![Tampilan Beranda](https://drive.google.com/file/d/1_uw7engwfXjpky1zkM27G3dFaMyNcH48/view?usp=drive_link)
+![Tampilan Beranda](https://freeimage.host/i/dSLFXXp)
 
 Deskripsi singkat tentang tampilan beranda aplikasi.
 
