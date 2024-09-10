@@ -42,7 +42,7 @@ Siperkasa Timoer dikembangkan untuk mempermudah proses pelaporan dan penanganan 
 
 ### Beranda
 
-![Tampilan Beranda](https://freeimage.host/i/dSLFXXp)
+![Tampilan Beranda](https://rsmn.it-rs.id/it_30-01-24/IKM/siperkasa-cpns/mobile_menambahkan_tindakan.jpg)
 
 Deskripsi singkat tentang tampilan beranda aplikasi.
 
