@@ -103,7 +103,7 @@ saya menggunakan teknologi phpqrcode untuk mengenerate dari link menjadi qrcode.
 
 ## Whatsapp
 
-![Whatsapp](https://rsmn.it-rs.id/it_30-01-24/IKM/siperkasa-cpns/wa.jpg)
+![Whatsapp](https://rsmn.it-rs.id/it_30-01-24/IKM/siperkasa-cpns/wa_new.jpg)
 
 untuk memudahkan monitoring, evaluasi, dan notifikasi baik ke user dan teknisi. siperkasa dilengkapi dengan notifikasi via whatsapp. notifikasi via wa ini terkirim ke teknisi ketika ada pembuatan tiket baru, dan terkirim juga ke user ketika status tiket diubah menjadi proses ataupun selesai.
 
