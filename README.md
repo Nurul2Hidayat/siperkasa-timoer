@@ -11,12 +11,7 @@ Siperkasa Timoer adalah aplikasi yang berfungsi sebagai sistem tiket untuk melap
 - [Tentang Proyek](#tentang-proyek)
 - [Fitur](#fitur)
 - [Tampilan Aplikasi](#tampilan-aplikasi)
-- [Instalasi](#instalasi)
-- [Cara Penggunaan](#cara-penggunaan)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
-- [Kontak](#kontak)
-- [Kredit](#kredit)
+- [Catatan saya](#catatan-dari-saya)
 
 ---
 
